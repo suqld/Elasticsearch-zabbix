@@ -505,6 +505,7 @@
         <template>
             <template>Elasticsearch Node</template>
             <name>Elasticsearch Node</name>
+            <description/>
             <groups>
                 <group>
                     <name>Templates</name>
@@ -707,6 +708,7 @@
         <template>
             <template>Elasticsearch Service</template>
             <name>Elasticsearch Service</name>
+            <description/>
             <groups>
                 <group>
                     <name>Templates</name>

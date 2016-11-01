@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
-    <version>2.0</version>
-    <date>2012-12-20T05:16:37Z</date>
+    <version>3.0</version>
+    <date>2016-11-02T08:30:33Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -745,7 +745,24 @@
             <type>0</type>
             <dependencies/>
         </trigger>
-
-
     </triggers>
+    <value_maps>
+        <value_map>
+            <name>Elasticsearch Service</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Green (OK)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Yellow (Average)</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>Red (High)</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>    
 </zabbix_export>

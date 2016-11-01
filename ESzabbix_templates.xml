@@ -11,6 +11,7 @@
         <template>
             <template>Elasticsearch Cluster</template>
             <name>Elasticsearch Cluster</name>
+            <description/>
             <groups>
                 <group>
                     <name>Templates</name>
